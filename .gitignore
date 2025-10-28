@@ -1,0 +1,157 @@
+# WordPress Plugin .gitignore
+
+# WordPress core files (if accidentally included)
+wp-config.php
+wp-config-sample.php
+wp-settings.php
+wp-load.php
+wp-blog-header.php
+wp-links-opml.php
+wp-mail.php
+wp-cron.php
+wp-trackback.php
+wp-login.php
+wp-signup.php
+wp-activate.php
+xmlrpc.php
+readme.html
+license.txt
+
+# WordPress directories
+wp-admin/
+wp-includes/
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/upgrade-temp-backup/
+wp-content/cache/
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/upgrade/
+wp-content/uploads/
+
+# Plugin specific
+*.log
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Mac OS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+.buildpath
+.classpath
+
+# Node.js (if using build tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Build artifacts
+dist/
+build/
+*.min.js
+*.min.css
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+
+# Temporary folders
+tmp/
+temp/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+
+# Database files
+*.sql
+*.sqlite
+*.db
+
+# PHP specific
+composer.phar
+vendor/
+composer.lock
+
+# Sass/SCSS
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+# Testing
+phpunit.xml
+.phpunit.result.cache
