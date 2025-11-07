@@ -6,12 +6,12 @@
 
 /**
  * Plugin Name:       Directorist - Custom Map Styles
- * Plugin URI:        https://wpwax.com
+ * Plugin URI:        https://wpxplore.com/tools/directorist-custom-map-styles
  * Description:       Custom Google Maps styling extension for Directorist plugin. Allows you to override default map styles and implement custom map configurations.
  * Version:           1.0.0
  * Requires at least: 5.2
  * Author:            wpXplore
- * Author URI:        https://wpxplore.com/plugins/directorist-custom-map-styles
+ * Author URI:        https://wpxplore.com/
  * License:           GPL v2 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       directorist-custom-map-styles
